@@ -44,6 +44,10 @@ googleAnalytics = ""
   name = "Get in touch"
   url = "contact/"
 
+  [[params.navlinksexternal]]
+  name = "Add a resource"
+  url = "https://github.com/stephlocke/dataops#add-a-resource"
+
   [params.social]
   facebook      = "https://www.facebook.com/search/top/?q=dataops"
   twitter       = "https://twitter.com/search?q=%23dataops&src=typd"
