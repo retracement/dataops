@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DataOps</title>
+    <link>http://dataops.info/index.xml</link>
+    <description>Recent content on DataOps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy;2017 Locke Data Ltd</copyright>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <atom:link href="http://dataops.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>John Snow Labs</title>
+      <link>http://dataops.info/portfolio/JohnSnowLabs/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/JohnSnowLabs/</guid>
+      <description>&lt;p&gt;John Snow Labs specialise in providing turnkey data solutions that save months of data gathering and cleaning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>http://dataops.info/contact/</link>
+      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
+      
+      <guid>http://dataops.info/contact/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve got resources you want to share, or you want to speak to someone about implementing DataOps in your organisation, here is the place to be.&lt;/p&gt;
+
+&lt;p&gt;When providing some info on a source of DatAOps info, please make sure to provide a full URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;PS. You can also directly add a resource to the site via &lt;a href=&#34;https://github.com/stephlocke/dataops&#34;&gt;github&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About DataOps.info</title>
+      <link>http://dataops.info/about/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>http://dataops.info/about/</guid>
+      <description>
+
+&lt;p&gt;DataOps.info is a website created in 2016 to start the sharing of resources aabout DataOps.&lt;/p&gt;
+
+&lt;p&gt;Anyone can contirbute a Pull Request that addsa a resource, or you can provide us the info via our &lt;a href=&#34;../contact&#34;&gt;Contact Us&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-dataops&#34;&gt;What is DataOps?&lt;/h2&gt;
+
+&lt;p&gt;The following excerpt is from &lt;a href=&#34;https://itsalocke.com/dataops-its-a-thing-honest/&#34;&gt;DataOps - It&amp;rsquo;s a thing (honest)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-devops&#34;&gt;What is DevOps?&lt;/h3&gt;
+
+&lt;p&gt;For folks not up on the DevOps side of things, DevOps is bridging the gap between different teams, both culturally and technologically, to reduce the risk and cost of software development in an organisation. Culturally, it means things like ownership of changes, “left-shifting” responsibility for testing, and lower manual approvals. Technologically, it means things like unit testing, immutable architecture, Continuous Integration (CI), Continuous Delivery (CD), real-time application monitoring and alerting.&lt;/p&gt;
+
+&lt;h3 id=&#34;so-what-is-dataops&#34;&gt;So what is DataOps?&lt;/h3&gt;
+
+&lt;p&gt;The first part of DataOps is perhaps the most obvious - the database! &lt;a href=&#34;http://www.red-gate.com/blog/long-live-revolution&#34;&gt;Database Lifecycle Management (DLM)&lt;/a&gt; is the work Microsoft &amp;amp; Redgate are doing to facilitate &lt;a href=&#34;http://artofunittesting.com/definition-of-a-unit-test/&#34;&gt;unit testing&lt;/a&gt;, CI &amp;amp; CD, and pipeline management for databases. DLM has been primarily used to improve the development &amp;amp; maintenance of application databases. As such it should be a significant component for a DevOps team. &lt;em&gt;But&lt;/em&gt; OLTP is not the only database use case in town - data warehouses and data marts need some love too. DLM can work well with these, but few devs want to build data warehouses so DLM cannot be solely under the purview of DevOps. So for the developers/analysts building data warehouses, please embrace DLM, and for the tool makers, please help cater to the needs of people who aren&amp;rsquo;t always the most comfy with code.&lt;/p&gt;
+
+&lt;p&gt;The next aspect is &amp;ldquo;traditional BI&amp;rdquo; a.k.a data transformation and loading (ETL), cubes, and reporting. These are historically developed using GUIs with limited tooling and support for the sort of practices we could expect in a DevOps environment. It is getting better with BIML, some &lt;a href=&#34;http://itsalocke.com/database-bi-related-unit-testing-options/&#34;&gt;unit testing facilities&lt;/a&gt;, and MS Build but it&amp;rsquo;s still not there. It should be. Yeah, applications are the thing which make money, but the insight from BI is what helps people direct the resources into improving said applications and managing the company generally. You need these things, and you need them to be right - so we should be adding as many facilities to check that things are right as possible.&lt;/p&gt;
+
+&lt;p&gt;The final major area is analytics aka data science, statistics, data mining, machine learning. In BI correctness is key – but we’re only ever aiming for correctness at the point of presentation. Analytics is aiming to be reasonably accurate consistently over people and time. That’s a really hard thing since when you start changing things, you can’t tell what would have happened if you hadn’t, unless you experiment. You need to be able to account for changing behaviour over time, and changes to data capture etc. This means your modelling has to be update-able and refinements easy to deploy, and at the same time remaining robust and auditable. Coded analysis, regular retraining, testing, and a validation and deployment pipeline are all needed to facilitate on-going analytics. Analytics has to be automated to be able to cope so incorporating the techniques of DevOps into the area is vital.&lt;/p&gt;
+
+&lt;p&gt;So folks, DataOps is a thing and it is the application of DevOps principals to data-centric applications. Enjoy!&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/64PIa9gcuh0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Locke Data</title>
+      <link>http://dataops.info/portfolio/LockeData/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/LockeData/</guid>
+      <description>&lt;p&gt;Locke Data is a Data Science consultancy aimed at helping companies get started with data science the right way. Focussing on building internal skills and sensible processes, Locke Data starts implementing DataOps in organisations from day 1.
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/64PIa9gcuh0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

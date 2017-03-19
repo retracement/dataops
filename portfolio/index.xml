@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on DataOps</title>
+    <link>http://dataops.info/portfolio/index.xml</link>
+    <description>Recent content in Portfolios on DataOps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy;2017 Locke Data Ltd</copyright>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <atom:link href="http://dataops.info/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Locke Data</title>
+      <link>http://dataops.info/portfolio/LockeData/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/LockeData/</guid>
+      <description>&lt;p&gt;Locke Data is a Data Science consultancy aimed at helping companies get started with data science the right way. Focussing on building internal skills and sensible processes, Locke Data starts implementing DataOps in organisations from day 1.
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/64PIa9gcuh0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>John Snow Labs</title>
+      <link>http://dataops.info/portfolio/JohnSnowLabs/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/JohnSnowLabs/</guid>
+      <description>&lt;p&gt;John Snow Labs specialise in providing turnkey data solutions that save months of data gathering and cleaning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

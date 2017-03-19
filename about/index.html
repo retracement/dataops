@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>About DataOps.info</title>
+<meta name="description" content="A site sharing DataOps resources from across the web">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="http://dataops.info/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="http://dataops.info/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://dataops.info/css/owl.carousel.css">
+<link rel="stylesheet" href="http://dataops.info/css/owl.theme.css">
+
+
+  <link href="http://dataops.info/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+
+<link href="http://dataops.info/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="http://dataops.info/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">DataOps</a></h1>
+    
+      <p class="sidebar-p">DevOps meets data</p>
+    
+      <p class="sidebar-p">A website dedicated to sharing DataOps resources</p>
+    
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="http://dataops.info/">Home</a></li>
+      
+        <li><a href="http://dataops.info/about/">About</a></li>
+      
+        <li><a href="http://dataops.info/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="https://www.facebook.com/search/top/?q=dataops" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  
+  <a href="https://twitter.com/search?q=%23dataops&amp;src=typd" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  
+  <a href="https://www.linkedin.com/search/results/index/?keywords=dataops" data-animate-hover="pulse">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/stephlocke/dataops" data-animate-hover="pulse">
+    <i class="fa fa-github"></i>
+  </a>
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2017 Locke Data Ltd
+        
+        | Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">DataOps</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>About DataOps.info</h1>
+         
+
+<p>DataOps.info is a website created in 2016 to start the sharing of resources aabout DataOps.</p>
+
+<p>Anyone can contirbute a Pull Request that addsa a resource, or you can provide us the info via our <a href="../contact">Contact Us</a> page.</p>
+
+<h2 id="what-is-dataops">What is DataOps?</h2>
+
+<p>The following excerpt is from <a href="https://itsalocke.com/dataops-its-a-thing-honest/">DataOps - It&rsquo;s a thing (honest)</a></p>
+
+<h3 id="what-is-devops">What is DevOps?</h3>
+
+<p>For folks not up on the DevOps side of things, DevOps is bridging the gap between different teams, both culturally and technologically, to reduce the risk and cost of software development in an organisation. Culturally, it means things like ownership of changes, “left-shifting” responsibility for testing, and lower manual approvals. Technologically, it means things like unit testing, immutable architecture, Continuous Integration (CI), Continuous Delivery (CD), real-time application monitoring and alerting.</p>
+
+<h3 id="so-what-is-dataops">So what is DataOps?</h3>
+
+<p>The first part of DataOps is perhaps the most obvious - the database! <a href="http://www.red-gate.com/blog/long-live-revolution">Database Lifecycle Management (DLM)</a> is the work Microsoft &amp; Redgate are doing to facilitate <a href="http://artofunittesting.com/definition-of-a-unit-test/">unit testing</a>, CI &amp; CD, and pipeline management for databases. DLM has been primarily used to improve the development &amp; maintenance of application databases. As such it should be a significant component for a DevOps team. <em>But</em> OLTP is not the only database use case in town - data warehouses and data marts need some love too. DLM can work well with these, but few devs want to build data warehouses so DLM cannot be solely under the purview of DevOps. So for the developers/analysts building data warehouses, please embrace DLM, and for the tool makers, please help cater to the needs of people who aren&rsquo;t always the most comfy with code.</p>
+
+<p>The next aspect is &ldquo;traditional BI&rdquo; a.k.a data transformation and loading (ETL), cubes, and reporting. These are historically developed using GUIs with limited tooling and support for the sort of practices we could expect in a DevOps environment. It is getting better with BIML, some <a href="http://itsalocke.com/database-bi-related-unit-testing-options/">unit testing facilities</a>, and MS Build but it&rsquo;s still not there. It should be. Yeah, applications are the thing which make money, but the insight from BI is what helps people direct the resources into improving said applications and managing the company generally. You need these things, and you need them to be right - so we should be adding as many facilities to check that things are right as possible.</p>
+
+<p>The final major area is analytics aka data science, statistics, data mining, machine learning. In BI correctness is key – but we’re only ever aiming for correctness at the point of presentation. Analytics is aiming to be reasonably accurate consistently over people and time. That’s a really hard thing since when you start changing things, you can’t tell what would have happened if you hadn’t, unless you experiment. You need to be able to account for changing behaviour over time, and changes to data capture etc. This means your modelling has to be update-able and refinements easy to deploy, and at the same time remaining robust and auditable. Coded analysis, regular retraining, testing, and a validation and deployment pipeline are all needed to facilitate on-going analytics. Analytics has to be automated to be able to cope so incorporating the techniques of DevOps into the area is vital.</p>
+
+<p>So folks, DataOps is a thing and it is the application of DevOps principals to data-centric applications. Enjoy!</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/64PIa9gcuh0" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="http://dataops.info/js/jquery.min.js"></script>
+<script src="http://dataops.info/js/bootstrap.min.js"></script>
+<script src="http://dataops.info/js/jquery.cookie.js"> </script>
+<script src="http://dataops.info/js/ekko-lightbox.js"></script>
+<script src="http://dataops.info/js/jquery.scrollTo.min.js"></script>
+<script src="http://dataops.info/js/masonry.pkgd.min.js"></script>
+<script src="http://dataops.info/js/imagesloaded.pkgd.min.js"></script>
+<script src="http://dataops.info/js/owl.carousel.min.js"></script>
+<script src="http://dataops.info/js/front.js"></script>
+
+</body>
+</html>
