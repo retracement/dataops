@@ -7,8 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy;2017 Locke Data Ltd</copyright>
-    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 20 Mar 2017 18:25:22 +0530</lastBuildDate>
     <atom:link href="http://dataops.info/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>arapaima.uk</title>
+      <link>http://dataops.info/portfolio/Arapaima/</link>
+      <pubDate>Mon, 20 Mar 2017 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/Arapaima/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Gavin Campbell, a freelance database developer specialised in improving working practices in database delivery through the use of tools such as SQL Server Data Tools, tSQLt, Visual Studio Team Services, Git and Jenkins, on platforms such as AWS and Microsoft Azure, and methodologies such as Continuous Delivery and Agile.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Locke Data</title>
