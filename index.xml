@@ -7,8 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy;2017 Locke Data Ltd</copyright>
-    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2017 18:25:22 +0530</lastBuildDate>
     <atom:link href="http://dataops.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DataKitchen</title>
+      <link>http://dataops.info/portfolio/DataKitchen/</link>
+      <pubDate>Fri, 24 Mar 2017 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/DataKitchen/</guid>
+      <description>&lt;p&gt;DataKitchen, Inc. enables analytic teams to deliver value quickly, with high quality, using the tools that they love.  DataKitchen provides the world’s first DataOps platform for data-driven enterprises, enabling them to support data analytics that can be quickly and robustly adapted to meet evolving requirements.  DataKitchen is leading the DataOps movement to incorporate Agile Software Development, DevOps, and manufacturing based statistical process control into analytics and data management.  DataKitchen is headquartered in Cambridge, Massachusetts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The DataOps Blog</title>
+      <link>http://dataops.info/portfolio/data-ops-blog/</link>
+      <pubDate>Fri, 24 Mar 2017 18:25:22 +0530</pubDate>
+      
+      <guid>http://dataops.info/portfolio/data-ops-blog/</guid>
+      <description>&lt;p&gt;Demming &amp;amp; DevOps for Analytics, Data Science, Business Intelligence, and Visualization&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>John Snow Labs</title>

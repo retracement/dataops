@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://dataops.info/portfolio/DataKitchen/</loc>
+    <lastmod>2017-03-24T18:25:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dataops.info/portfolio/data-ops-blog/</loc>
+    <lastmod>2017-03-24T18:25:22+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dataops.info/portfolio/JohnSnowLabs/</loc>
     <lastmod>2016-11-05T18:25:22+05:30</lastmod>
   </url>
@@ -45,7 +55,7 @@
   
   <url>
     <loc>http://dataops.info/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2017-03-24T18:25:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
