@@ -1,4 +1,4 @@
-baseurl = "http://dataops.info/"
+baseurl = "https://dataops.info/"
 title = "DataOps"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-gb"
